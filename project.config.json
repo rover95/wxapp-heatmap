@@ -39,19 +39,13 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": -1,
 			"list": [
-				{
-					"id": -1,
-					"name": "gis",
-					"pathName": "pages/gis/gis",
-					"query": "",
-					"scene": null
-				},
 				{
 					"id": -1,
 					"name": "画布",
 					"pathName": "pages/canvasPage/canvasPage",
+					"query": "",
 					"scene": null
 				}
 			]
