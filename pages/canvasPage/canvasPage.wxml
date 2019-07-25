@@ -1,5 +1,7 @@
 <!--pages/canvasPage/canvasPage.wxml-->
-<canvas style="width: 375px; height: 200px;" disable-scroll="{{true}}" canvas-id="cvs"></canvas>
+<map style='width:100vw;height:200px' id="map" longitude="110" latitude="30" scale="7" bindregionchange="handleRegionchange"></map>
+
+<canvas style="position: absolute;top: 0;width: 375px; height: 200px;" disable-scroll="{{true}}" canvas-id="cvs"></canvas>
 
 <!-- 渐变条 -->
 <canvas style="position: absolute;top: 0; width: 256px; height: 10px;" disable-scroll="{{true}}" canvas-id="color"></canvas>

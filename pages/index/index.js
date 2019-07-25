@@ -2,13 +2,12 @@
 
 Page({
   data: {
-   
+    
   },
-  
-  onLoad: function () {
+
+  onLoad: function() {
     wx.navigateTo({
-      url:'../canvasPage/canvasPage'
-    })
-  },
-  
-})
+      url: "../canvasPage/canvasPage"
+    });
+  }
+});
