@@ -1,1 +1,15 @@
 /* pages/canvasPage/canvasPage.wxss */
+.flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx;
+
+}
+.flex view{
+  border: 1px solid #ddd;
+  border-radius: 6rpx;
+  background-color: #eee;
+  width: 30px;
+  text-align: center;
+  
+}
