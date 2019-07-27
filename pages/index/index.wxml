@@ -1,4 +1,9 @@
-<view style="width:100vw;height:300px">
-  <heatMap></heatMap>
+<view style="width:100vw;height:300px" wx:if="{{points.length>0}}">
+  <heatMap points="{{points}}" longitude="{{longitude}}" latitude="{{latitude}}" mapScale="{{mapScale}}" range="{{range}}"></heatMap>
 </view>
 
+<button bindtap="handleResetBtn">reset</button>
+<view class="flex">
+  <view bindtap="handleScaleChange" id="less"> - </view>
+  <view bindtap="handleScaleChange" id="more">+</view>
+</view>

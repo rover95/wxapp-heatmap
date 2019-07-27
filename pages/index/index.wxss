@@ -49,3 +49,16 @@ page{
   transition: all .5s ease-in 0s;
   z-index: 0;
 }
+.flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx;
+
+}
+.flex view{
+  border: 1px solid #ddd;
+  border-radius: 6rpx;
+  background-color: #eee;
+  width: 30px;
+  text-align: center;
+}
