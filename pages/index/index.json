@@ -1,4 +1,5 @@
 {
   "usingComponents": {
+    "heatMap":"../../components/heatMap/heatMap"
   }
 }

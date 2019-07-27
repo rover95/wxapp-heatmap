@@ -1,6 +1,4 @@
-<!--index.wxml-->
-<!-- <Swiper/>   -->
-<!-- <map style='width:100vw;height:90vh' longitude="112" latitude="30" scale="7"  bindregionchange="handleRegionchange"></map> -->
-<!-- <button bindtap="handleGis">gis</button> -->
-<canvas style="position: absolute;top: 0; width: 400px; height: 500px;" disable-scroll="{{true}}" canvas-id="cvs"></canvas>
-<canvas style="position: absolute;top: 0; width: 256px; height: 10px;" disable-scroll="{{true}}" canvas-id="color"></canvas>
+<view style="width:100vw;height:300px">
+  <heatMap></heatMap>
+</view>
+

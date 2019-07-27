@@ -6,8 +6,8 @@ Page({
   },
 
   onLoad: function() {
-    wx.navigateTo({
-      url: "../canvasPage/canvasPage"
-    });
+    // wx.navigateTo({
+    //   url: "../canvasPage/canvasPage"
+    // });
   }
 });
