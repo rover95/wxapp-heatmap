@@ -12,8 +12,8 @@ points: [{        //热力点数组
   ratio: 0.5,     //热力点覆盖范围半径系数
   opacity: 0.9    //热力点最大透明度，控制热力点权重
 }],
-longitude: 110,   //经度
-latitude: 30,     //纬度
+longitude: 110,   //地图中心点经度
+latitude: 30,     //地图中心点纬度
 mapScale: 7,      //地图缩放，同原生map
 range: 50,        //热力点基础覆盖范围,单位px 
  */
