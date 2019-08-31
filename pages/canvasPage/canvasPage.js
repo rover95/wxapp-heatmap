@@ -27,9 +27,9 @@ Page({
     this.mapCtx = mapCtx;
     this.getMapRegion(()=>{
       this.points = this.getMapPoints();
-      this.drawCanvas(this.points);
+      // this.drawCanvas(this.points);
     });
-    // this.getColorGradual();
+    this.getColorGradual();
   },
   //获取窗口坐标范围
   getMapRegion(fun){
